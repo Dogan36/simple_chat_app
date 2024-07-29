@@ -1,3 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+
 <h1>Login</h1>
 {% if wrongPassword %}
   <p>Password falsch</p>
@@ -15,3 +18,4 @@
     <button>Login</button>
   </div>
 </form>
+{% endblock content %}
